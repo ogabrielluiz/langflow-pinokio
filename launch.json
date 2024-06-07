@@ -16,7 +16,7 @@
         {
             "method": "shell.enter",
             "params": {
-                "message": "python -m langflow",
+                "message": "python -m langflow run",
                 "on": [{
                     "event": "/Access (http[0-9\/.:]+)/",
                     "return": "{{event.matches[0][1]}}"
